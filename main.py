@@ -98,7 +98,8 @@ WHY: short explanation
         speak(response.text)
 
     except Exception as e:
-        Clock.schedule_once(lambda dt: app.show_result(f"Error: {str(e)}"))
+        error_msg = f"Error: {str(e)}"
+        Clock.schedule_once(lambda dt: app.show_result(error_msg))
 
 # ===============================
 # UI
@@ -246,8 +247,6 @@ class AureliaApp(MDApp):
 
         img = cv2.imread(CAPTURED_FILE)
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-
-        # ❌ NO FLIP HERE (this was the bug)
 
         buf = img.tobytes()
         tex = Texture.create(

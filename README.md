@@ -33,3 +33,13 @@ An AI-powered desktop application that analyzes facial features using computer v
 - Convert into web application using Streamlit
 - Deploy for real-time user access
 - Improve UI/UX for better experience
+  ## 📸 Screenshots
+
+### 🔐 Login Screen
+![Login](assets/login.png)
+
+### 📷 Camera Screen
+![Camera](assets/camera.png)
+
+### 🤖 Result Screen
+![Result](assets/result.png)

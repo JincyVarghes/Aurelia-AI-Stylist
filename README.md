@@ -28,3 +28,8 @@ An AI-powered desktop application that analyzes facial features using computer v
 ## ▶️ How to Run
 
 1. Clone the repository:
+## 🌐 Future Scope
+
+- Convert into web application using Streamlit
+- Deploy for real-time user access
+- Improve UI/UX for better experience

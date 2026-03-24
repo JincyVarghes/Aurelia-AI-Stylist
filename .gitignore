@@ -1,0 +1,4 @@
+.env
+*.db
+*.jpg
+__pycache__/
